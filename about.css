@@ -30,11 +30,12 @@
 }
 
 img {
-  max-width: 140%;
+  max-width: 85%;
+  max-height: 10%;
 }
 
 .flex-container {
-  display: flex;
+  display: block;
   align-items: flex-end;
   background-color: #f8f9fa;
   margin-top: 20px;
@@ -48,5 +49,10 @@ img {
 @media (min-width: 600px) {
   img {
     max-width: 70%;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: row;
   }
 }

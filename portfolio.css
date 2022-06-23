@@ -4,7 +4,12 @@
   box-sizing: border-box;
 }
 
-.container marketing {
-  background-color: black;
+h1 {
+  border: 1px solid rgba(222, 226, 230);
+  border-radius: 10px;
+  background-color: rgb(33, 37, 41);
   color: white;
+  text-align: center;
+  width: 50%;
+  padding: 1%;
 }
