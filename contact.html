@@ -63,45 +63,42 @@
     <div class="p-5 mb-4 bg-light rounded-3">
       <div class="container-fluid py-5">
         <h1 class="display-5 fw-bold">Get in Touch</h1><br>
-            <!-- <h2>Fill out the form below</h2><br> -->
 
         <hr class="solid">
 
         <form>
-              <form action="results.html" method="GET" enctype="multipart/form-data">
-           
-                <div class="checkbox">
-                  <br><br>
+          <form action="/action_page.php">          
+            <div class="checkbox">
                   <h3>How did you hear about me?</h3>
                       <div>
-                    <label for="classmate">Referral</label>
-                    <input type="checkbox" name="classmate" id="classmate">
+                    <label for="referral">Referral</label>
+                    <input type="checkbox" name="referral" id="referral" value="referral">
                      </div>
                       
                        <div>
-                       <label for="resume submission">Resume Submission</label>
-                       <input type="checkbox" name="resume submission" id="resume submission">
+                       <label for="resume">Resume Submission</label>
+                       <input type="checkbox" name="resume" id="resume" value="resume">
                       </div>
                        
                       <div>
                       <label for="linkedIn">LinkedIn</label>
-                      <input type="checkbox" name="linkedIn" id="linkedIn">
+                      <input type="checkbox" name="linkedIn" id="linkedIn"value="linkedIn">
                       </div>
             
                       <div>
-                        <label for="coding academy rec">Coding Academy Rec</label>
-                        <input type="checkbox" name="coding academy rec" id="coding academy rec">
+                        <label for="academy">Coding Academy Rec</label>
+                        <input type="checkbox" name="academy" id="academy" value="academy">
                        </div>
             </div>
 
-                <div><br>
+                <div>
                   <label for="name">Name: </label><br>
-                  <input type="text" name="name" id="name" >
+                  <input type="text" name="name" id="name">
               </div>
                    
               <div><br>
                 <label for="email">Email: </label><br>
-                <input type="email" name="email" id="email" >
+                <input type="email" name="email" id="email">
               </div>
 
               <div><br>
@@ -118,9 +115,9 @@
                 </select>
               </div>
 
-                <br>
-              <button class="btn btn-outline-secondary" type="button">Reset</button> 
-              <button class="btn btn-outline-secondary" type="button">Submit</button> 
+              <br>
+              <input type="reset" class="btn btn-outline-secondary" value="Reset">
+              <input type="submit" class="btn btn-outline-secondary" value="Submit">
               <br><br>       
           </form> 
 
@@ -141,7 +138,7 @@
       <div class="col-md-6">
         <div class="h-100 p-5 bg-light border rounded-3">
           <h2>Follow Me</h2>
-          <a href="#" class="fa fa-facebook bg-dark"></a>
+            <a href="#" class="fa fa-facebook bg-dark"></a>
             <a href="#" class="fa fa-google bg-dark "></a>
             <a href="#" class="fa fa-linkedin bg-dark "></a>
             <a href="#" class="fa fa-instagram bg-dark "></a>
