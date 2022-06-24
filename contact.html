@@ -63,22 +63,66 @@
     <div class="p-5 mb-4 bg-light rounded-3">
       <div class="container-fluid py-5">
         <h1 class="display-5 fw-bold">Get in Touch</h1><br>
-            <h2>Why would you like to connect with me? Choose below:</h2><br>
-          
-        <form>
-              <form action="">
-            <label for="reason"></label>
-            <select id="reason" name="reason">
-            <option value="reason1">You'd like to chat.</option>
-            <option value="reason2">You'd like to know more.</option>
-            <option value="reason3">You'd like to collaborate.</option>
-            <option value="reason4">You'd like to interview me.</option>
-            </select>
+            <!-- <h2>Fill out the form below</h2><br> -->
 
-          <button class="btn btn-outline-secondary" type="button">Submit</button> 
-        </form>
-      </div>
-    </div>
+        <hr class="solid">
+
+        <form>
+              <form action="results.html" method="GET" enctype="multipart/form-data">
+           
+                <div class="checkbox">
+                  <br><br>
+                  <h3>How did you hear about me?</h3>
+                      <div>
+                    <label for="classmate">Referral</label>
+                    <input type="checkbox" name="classmate" id="classmate">
+                     </div>
+                      
+                       <div>
+                       <label for="resume submission">Resume Submission</label>
+                       <input type="checkbox" name="resume submission" id="resume submission">
+                      </div>
+                       
+                      <div>
+                      <label for="linkedIn">LinkedIn</label>
+                      <input type="checkbox" name="linkedIn" id="linkedIn">
+                      </div>
+            
+                      <div>
+                        <label for="coding academy rec">Coding Academy Rec</label>
+                        <input type="checkbox" name="coding academy rec" id="coding academy rec">
+                       </div>
+            </div>
+
+                <div><br>
+                  <label for="name">Name: </label><br>
+                  <input type="text" name="name" id="name" >
+              </div>
+                   
+              <div><br>
+                <label for="email">Email: </label><br>
+                <input type="email" name="email" id="email" >
+              </div>
+
+              <div><br>
+                <label for="phone">Phone: </label><br>
+                <input type="phone" name="phone" id="phone">
+              </div>
+          
+              <div><br>
+                <label for="box">Why would you like to reach me?</label><br>
+                <select name="reason" id="reason" multiple>
+                  <option value="reason1">You would like to chat</option>
+                  <option value="reason2">You would like to collaborate</option>
+                  <option value="reason">You would like to interview me</option>
+                </select>
+              </div>
+
+                <br>
+              <button class="btn btn-outline-secondary" type="button">Reset</button> 
+              <button class="btn btn-outline-secondary" type="button">Submit</button> 
+              <br><br>       
+          </form> 
 
     <div class="row align-items-md-stretch">
       <div class="col-md-6">
