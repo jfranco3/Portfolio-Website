@@ -10,7 +10,6 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <script src="contact.js"></script>
     <link rel="stylesheet" href="./contact.css">
     <title>Contact Me</title>
   </head>
@@ -66,8 +65,7 @@
 
         <hr class="solid">
 
-        <form>
-          <form action="/action_page.php">          
+          <form action="results.html" method="GET" enctype="multipart/form-data">      
             <div class="checkbox">
                   <h3>How did you hear about me?</h3>
                       <div>
@@ -107,11 +105,11 @@
               </div>
           
               <div><br>
-                <label for="box">Why would you like to reach me?</label><br>
+                <label for="list">Why would you like to reach me?</label><br>
                 <select name="reason" id="reason" multiple>
-                  <option value="reason1">You would like to chat</option>
-                  <option value="reason2">You would like to collaborate</option>
-                  <option value="reason">You would like to interview me</option>
+                  <option value="chat">You would like to chat</option>
+                  <option value="collaborate">You would like to collaborate</option>
+                  <option value="interview">You would like to interview me</option>
                 </select>
               </div>
 
@@ -138,10 +136,10 @@
       <div class="col-md-6">
         <div class="h-100 p-5 bg-light border rounded-3">
           <h2>Follow Me</h2>
-            <a href="#" class="fa fa-facebook bg-dark"></a>
-            <a href="#" class="fa fa-google bg-dark "></a>
-            <a href="#" class="fa fa-linkedin bg-dark "></a>
-            <a href="#" class="fa fa-instagram bg-dark "></a>
+            <a href="https://facebook.com" class="fa fa-facebook bg-dark"></a>
+            <a href="https://google.com" class="fa fa-google bg-dark "></a>
+            <a href="https://linkedIn.com" class="fa fa-linkedin bg-dark "></a>
+            <a href="https://instagram.com" class="fa fa-instagram bg-dark "></a>
           <!-- <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p> -->
           <!-- <button class="btn btn-outline-secondary" type="button">Example button</button> -->
         </div>
