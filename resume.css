@@ -1,7 +1,6 @@
 * {
   padding: 0;
   margin: 0 auto;
-  /* box-sizing: border-box; */
   font-family: "Noto Sans", sans-serif;
 }
 
@@ -14,14 +13,19 @@
     "skills education"
     "work work"
     "work work";
-  background-color: white;
+  background-color: mintcream;
+}
+
+#name {
+  color: #154360;
+  letter-spacing: 20px;
+  margin-top: 5%;
 }
 
 .dates {
   color: hsl(83, 11%, 55%);
 }
 
-h1,
 h5 {
   color: #154360;
 }
@@ -29,7 +33,11 @@ h5 {
 p,
 li,
 h6 {
-  color: hsl(120, 49%, 14%);
+  color: #003300;
+}
+
+.email {
+  float: right;
 }
 
 .pic {
@@ -38,36 +46,61 @@ h6 {
 
 .title {
   grid-area: title;
+  margin-top: 5% 5%;
 }
 
 .skills {
   grid-area: skills;
-  margin-top: 15%;
+  margin-top: 11%;
 }
 
 .education {
   grid-area: education;
+  margin-top: 15%;
 }
 
 .contact {
   grid-area: contact;
+  margin-top: 40%;
+  text-align: center;
 }
 
 .summary {
   grid-area: summary;
+  margin-top: 5%;
 }
 
 .work {
   grid-area: work;
+  margin-top: 5%;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 976px) {
   .container {
+    grid-column-gap: 50px;
     grid-template-areas:
       "title title title"
       "pic contact contact"
-      "skills summary summary"
+      "pic summary summary"
       "skills work work"
       "education work work";
+  }
+
+  .contact {
+    margin: 0;
+    text-align: left;
+  }
+
+  .education {
+    margin-top: 0% 10%;
+  }
+
+  .skills {
+    margin-top: 17%;
+  }
+
+  .work {
+    grid-area: work;
+    margin-top: 0% 50%;
   }
 }
