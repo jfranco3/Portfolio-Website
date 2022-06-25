@@ -1,14 +1,14 @@
 * {
   padding: 0;
   margin: 0 auto;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   font-family: "Noto Sans", sans-serif;
 }
 
 .container {
   display: grid;
   grid-template-areas:
-    "tite title"
+    "title title"
     "pic contact"
     "summary summary"
     "skills education"
@@ -42,6 +42,7 @@ h6 {
 
 .skills {
   grid-area: skills;
+  margin-top: 15%;
 }
 
 .education {
