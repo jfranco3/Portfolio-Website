@@ -2,4 +2,71 @@
   padding: 0;
   margin: 0 auto;
   box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-areas:
+    "tite title"
+    "pic contact"
+    "summary summary"
+    "skills education"
+    "work work"
+    "work work";
+  background-color: white;
+}
+
+.dates {
+  color: hsl(83, 11%, 55%);
+}
+
+h1,
+h5 {
+  color: #154360;
+}
+
+p,
+li,
+h6 {
+  color: hsl(120, 49%, 14%);
+}
+
+.pic {
+  grid-area: pic;
+}
+
+.title {
+  grid-area: title;
+}
+
+.skills {
+  grid-area: skills;
+}
+
+.education {
+  grid-area: education;
+}
+
+.contact {
+  grid-area: contact;
+}
+
+.summary {
+  grid-area: summary;
+}
+
+.work {
+  grid-area: work;
+}
+
+@media (min-width: 600px) {
+  .container {
+    grid-template-areas:
+      "title title title"
+      "pic contact contact"
+      "skills summary summary"
+      "skills work work"
+      "education work work";
+  }
 }
