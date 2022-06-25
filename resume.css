@@ -75,6 +75,16 @@ h6 {
   margin-top: 5%;
 }
 
+@media (min-width: 600px) {
+  .summary {
+    margin: 5% 15%;
+  }
+
+  .education {
+    margin-top: 14%;
+  }
+}
+
 @media (min-width: 976px) {
   .container {
     grid-column-gap: 50px;
@@ -87,8 +97,10 @@ h6 {
   }
 
   .contact {
+    margin: 2%;
+  }
+  .summary {
     margin: 0;
-    text-align: left;
   }
 
   .education {
@@ -96,7 +108,7 @@ h6 {
   }
 
   .skills {
-    margin-top: 17%;
+    margin-top: 16%;
   }
 
   .work {
