@@ -38,25 +38,47 @@ body {
 .img1 {
   grid-area: img1;
 }
+.img1 :hover {
+  opacity: 0.5;
+}
 
 .img2 {
   grid-area: img2;
+}
+.img2 :hover {
+  opacity: 0.5;
 }
 
 .img3 {
   grid-area: img3;
 }
 
+.img3 :hover {
+  opacity: 0.5;
+}
+
 .img4 {
   grid-area: img4;
+}
+
+.img4 :hover {
+  opacity: 0.5;
 }
 
 .img5 {
   grid-area: img5;
 }
 
+.img5 :hover {
+  opacity: 0.5;
+}
+
 .img6 {
   grid-area: img6;
+}
+
+.img6 :hover {
+  opacity: 0.5;
 }
 
 @media (min-width: 976px) {
