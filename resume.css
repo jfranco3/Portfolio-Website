@@ -36,13 +36,19 @@ h6 {
   color: #003300;
 }
 
+.title {
+  grid-area: title;
+  margin-top: 5% 5%;
+}
+
 .pic {
   grid-area: pic;
 }
 
-.title {
-  grid-area: title;
-  margin-top: 5% 5%;
+.contact {
+  grid-area: contact;
+  margin-top: 40%;
+  text-align: left;
 }
 
 .skills {
@@ -52,13 +58,7 @@ h6 {
 
 .education {
   grid-area: education;
-  margin-top: 3%;
-}
-
-.contact {
-  grid-area: contact;
-  margin-top: 40%;
-  text-align: left;
+  margin-top: 4%;
 }
 
 .summary {
@@ -69,6 +69,13 @@ h6 {
 .work {
   grid-area: work;
   margin-top: 5%;
+}
+
+@media (min-width: 596px) {
+  .contact {
+    margin-top: 20%;
+    text-align: left;
+  }
 }
 
 @media (min-width: 976px) {
@@ -94,7 +101,7 @@ h6 {
   }
 
   .skills {
-    margin-top: 20%;
+    margin-top: 18%;
   }
 
   .work {
