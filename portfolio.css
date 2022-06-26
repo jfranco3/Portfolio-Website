@@ -1,22 +1,20 @@
-* {
+body {
   margin: 0 auto;
-  padding: 0;
-  box-sizing: border-box;
+  padding: 20px;
+  /* box-sizing: border-box; */
   font-family: "Noto Sans", sans-serif;
 }
 
-/* h1 {
-  border: 1px solid rgba(222, 226, 230);
-  border-radius: 10px;
-  background-color: rgb(33, 37, 41);
-  color: white;
-  text-align: center;
-  width: 50%;
-  padding: 1%;
-} */
-
 h1 {
   color: black;
-  /* letter-spacing: 20px; */
   text-align: center;
+}
+
+.card-body {
+  background-color: rgb(248, 249, 250);
+  border-radius: 5px;
+}
+
+img {
+  width: 100%;
 }

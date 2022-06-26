@@ -1,5 +1,5 @@
-* {
-  padding: 0;
+body {
+  padding: 20px;
   margin: 0 auto;
   font-family: "Noto Sans", sans-serif;
 }
@@ -36,10 +36,6 @@ h6 {
   color: #003300;
 }
 
-.email {
-  float: right;
-}
-
 .pic {
   grid-area: pic;
 }
@@ -62,7 +58,7 @@ h6 {
 .contact {
   grid-area: contact;
   margin-top: 40%;
-  text-align: center;
+  text-align: left;
 }
 
 .summary {
