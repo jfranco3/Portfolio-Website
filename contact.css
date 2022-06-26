@@ -17,8 +17,8 @@ h4 {
 
 form {
   margin: 5%;
-  margin-bottom: 0;
-  margin-top: 0;
+  margin-right: 10%;
+  text-align: center;
 }
 
 p {
@@ -62,7 +62,7 @@ p {
 
 @media (min-width: 596px) {
   form {
-    margin-left: 40%;
+    margin-right: 5%;
   }
 
   .fa {
