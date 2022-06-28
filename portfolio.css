@@ -20,7 +20,7 @@ img {
 }
 
 .card {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 
 .btn-group {
@@ -29,14 +29,15 @@ img {
 
 @media (min-width: 576px) {
   .card {
-    height: 400px;
-    margin-bottom: 15px;
+    height: 435px;
+    /* margin-bottom: 5px; */
   }
+
 }
 
 @media (min-width: 976px) {
   .card {
-    height: 405px;
+    height: 440px;
     margin-bottom: 15px;
   }
 }
